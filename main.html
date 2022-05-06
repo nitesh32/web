@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <!--my comment -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nitesh file</title>
     <!-- to add css file -->
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
     <!-- to add js file -->
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
 </head>
+
 <body>
     <!-- head tags -->
     <h1>nit</h1>
@@ -20,13 +22,17 @@
     <h5>nit</h5>
     <h6>nit</h6>
     <!-- paragraph with br for break line and hr for a stright line -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae tenetur <br> quis itaque ipsum libero <hr> suscipit fugit nemo! Quis tenetur nostrum <strong>this is strong tag</strong> <em>this is em tag </em> nesciunt voluptate sequi possimus cupiditate! Vel ipsum quisquam aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae tenetur <br> quis itaque ipsum
+        libero
+        <hr> suscipit fugit nemo! Quis tenetur nostrum <strong>this is strong tag</strong> <em>this is em tag </em>
+        nesciunt voluptate sequi possimus cupiditate! Vel ipsum quisquam aliquam.
+    </p>
     <!-- lorem4 for 4 dummy words -->
     <!-- p*4 can create 4 p tags -->
     <!-- command + return is used to go to next line without mouse -->
 
     <!-- ````links ans images part````` -->
-    <a href="https://google.com" target="_blank" >google</a>
+    <a href="https://google.com" target="_blank">google</a>
     <br>
     <a href="https://instagram.com" target="_blank">instagram</a>
     <br>
@@ -41,16 +47,134 @@
     <ul type="circle">
         <li>first</li>
         <li>second</li>
+
+        <ul>
+            <li>onq</li>
+            <li>te</li>
+        </ul>
+
         <li>third</li>
         <li>fourth</li>
     </ul>
     <ol type="a">
         <li>first</li>
         <li>second</li>
+
+        <li>third</li>
         <li>third</li>
         <li>fourth</li>
     </ol>
+    <!-- tabels in html -->
+    <h3>tabel</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>name </th>
+                <th>id</th>
+                <th>role </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>nites</td>
+                <td>500</td>
+                <td>sde</td>
+            </tr>
+            <tr>
+                <td>sumit</td>
+                <td>600</td>
+                <td>sde 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- html forms -->
+
+    <h3>html forms </h3>
+    <form action="backend.php">
+        <label for="myname">givename</label>
+        <input type="text" name="myname" id="myname">
+        <br>
+        roll_no : <input type="text" name="myrol">
+        <br>
+        date : <input type="date" name="mydate">
+        <br>
+        number : <input type="number" name="mynumber" id="myname">
+        <br>
+        <label for="my">checkbox</label>
+        <input type="checkbox" name="mycheck" id="my">
+        <br>
+        email : <input type="email" name="mymail">
+        <br>
+        radiobutton : male <input type="radio" name="myradio"> female <input type="radio" name="myradio">
+        <br>
+        button :<input type="button" value="topress">
+        <br>
+        <label for="car">choose car</label>
+        <select name="mycar" id="car">
+            <option value="range">range</option>
+            <option value="suzuki" selected>alto</option>
+        </select>
+        <br>
+        write something : <br> <textarea name="towrite" cols="50" rows="10"></textarea>
+        <br>
+        submit : <input type="submit" value="do it now">
+        reset :<input type="reset" value="toreset">
+    </form>
+
+    <!-- inline and block elements -->
+    <!-- intline elements -->
+    <span>this is me</span>
+    <span>this is also here me</span>
+    <em>nithere</em>
+    <strong>hello</strong>
+    <strong>hiiii</strong>
+    <a href="https://google.com">do it</a>
+    <!-- block elements -->
+    <p>this is also me</p>
+    <div>hey hello</div>
+    <li>nit</li>
+
+    <!-- ids and classes in html  -->
+    <h3>ids and classes in html</h3>
+
+    <div id="mainBox" class="redBg blackbg blackborder">
+        this is mainbox
+    </div>
+
+    <!-- emmet in html -->
+    <!-- . is for class in htmls -->
+    <!-- # is for id  -->
+    <!-- strong.blackbg.bl.cl for classes -->
+    <!-- strong#lil for id -->
+
+    <!-- html entities -->
+    <div>
+        <p>nit here in this world</p>
+    </div>
+    <!-- no space is printed -->
+    <div>
+        <p>
+            this is nit here &nbsp;&nbsp;&nbsp;&nbsp; world
+        </p>
+    </div>
+    <!-- space printed woth &nbsp; -->
+    <!-- some other entities in html  -->
+    <p>this is &gt;p&lt; </p>
+    <p>this is symbol of pound = &pound;</p>
+    <p>this is symbol of copyright = &copy;</p>
+    <p>this is symbol of this = &rAarr;</p>
+    <p>this is symbol of empty character  = &#8203;</p>
+    
+    <!-- sementic tags -->
+
+    <h3>sementic tags</h3>
+    <details>
+        <summary>open for info</summary>
+        this is nit here in this web
+    </details>
 
 
 </body>
+
 </html>
