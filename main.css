@@ -1,3 +1,38 @@
-style{
-    border: aquamarine;
+/* css element selector */
+p{
+    /* all p will contain following style */
+    color: rgb(179, 237, 237);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+}
+h2{
+    color: brown;
+}
+/* css id selector */
+#idele{
+    color: brown;
+    background-color: aliceblue;
+}
+#ch{
+    color: rgb(210, 196, 44);
+}
+/* css class selector */
+.clssselec{
+    color: rgb(48, 155, 111);
+    background-color: rgb(136, 10, 10);
+}
+.clsssele{
+    color: bisque;
+    background-color: black;
+}
+.cli{
+    background-color: black;
+}
+
+/* css grouping selector */
+span,div{
+    background-color: rgb(35, 92, 142);
+    border: rgb(165, 104, 104);
+    font-weight: bolder;
 }
