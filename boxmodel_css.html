@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model in css</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: aqua;
+            border: 4px solid blue;
+            /* padding: 79px; */
+            /* padding-top: 79px;
+            padding-bottom: 79px;
+            padding-left: 40px;
+            padding-right: 20px ; */
+            /* margin: 20px; */
+
+            /* we can change margin/padding top,bottom,left,right like this */
+            /* padding : 78px 78px 40px 23px ; */
+
+            /* we can also write it like that padding : y(top/bottom) x(right/left) */
+            
+            padding: 9px 40px;
+            margin: 9px 4px;
+            border-radius: 40px;
+            width: 500px;
+            box-sizing: border-box;
+
+            
+        }
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="int">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, maiores dolores! Possimus praesentium architecto beatae cum laudantium, officiis odit nisi?</p>
+    </div>
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="sec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, maiores dolores! Possimus praesentium architecto beatae cum laudantium, officiis odit nisi?</p>
+    </div>
+
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="tir">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, maiores dolores! Possimus praesentium architecto beatae cum laudantium, officiis odit nisi?</p>
+    </div>
+</body>
+</html>

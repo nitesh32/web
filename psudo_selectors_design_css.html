@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 4px solid red;
+            background-color: aqua;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+
+        }
+        .btn{
+            background-color: bisque;
+            padding: 6px;
+            border:none;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(70, 11, 11);
+            background-color: green;
+        }
+        a:visited{
+            color: rgb(222, 222, 222);
+            background-color: black;
+        }
+        a:active{
+            color: gold;
+            background-color: dodgerblue;
+        }
+        .btn:hover{
+            color: coral;
+            background-color: yellowgreen;
+            border: 4px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h2>this is heading </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sed beatae commodi enim nam ipsum architecto suscipit sunt cupiditate. Possimus recusandae veritatis quos consequuntur delectus? Esse corrupti, illum corporis tenetur omnis qui quam!</p>
+        <a href="https://www.codechef.com/" class="btn">read more</a>
+        <button class="btn">contuct us</button>
+    </div>
+</body>
+</html>
